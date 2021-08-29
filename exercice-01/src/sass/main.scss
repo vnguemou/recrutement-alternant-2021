@@ -1,18 +1,88 @@
 // Variables
 @import "variables";
 
-
 body {
   background-color: $background-color;
-
   font-family: degular,sans-serif;
-  font-weight: 500;
   font-style: normal;
+  color: $white;
 }
-
 
 h1 {
   font-family: degular-display,sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+#logo {
+  width: 56%;
+}
+
+#logo img {
+  margin-left: 20%;
+  margin-top: 22%;
+}
+
+#star1 {
+  margin-bottom: 110px;
+  margin-right: 20px;
+}
+
+.title-text {
+  margin-left: calc(50% - 363px);
+  margin-top: -60px;
+  margin-bottom: 90px;
+  display: flex;
+}
+
+.title-text #star2 {
+  margin-top: -121.5px;
+  margin-left: -23.4px;
+}
+
+.title-text #star3 {
+  margin-left: 624px;
+  margin-top: 144.8px;
+}
+
+.title-text h1 {
+  position: absolute;
+  width: 729px;
+  text-align: center;
+  font-size: 50px;
+  color: $light-blue;
+}
+
+footer h2 {
+  width: 430px;
+  height: 59px;
+  padding-top: 21px;
+  text-align: center;
+  background-color: $light-orange;
+  margin-top: -19px;
+  margin-left: 19px;
+  transform: rotate(-3deg);
+  position: absolute;
+}
+
+#rect1 {
+  width: 460px;
+  height: 85px;
+  background-color: $dark-orange;
+  position: absolute;
+}
+
+footer #demi-cercle {
+  margin-left: -75px;
+  margin-top: 15px;
+}
+
+footer {
+  margin-left: calc(50% - 230px);
+  display: flex;
 }
